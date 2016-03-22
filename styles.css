@@ -19,7 +19,9 @@ body{
     text-align: center;
         
 }
-
+#content{
+    padding: 10px,10px,10px,10px;
+}
 
 
 
@@ -32,10 +34,4 @@ body{
     height: 100%;
 }
   
-#navigation li{
-    display: inline-block;
-    margin: 0;
-    padding: 15px 15px 15px 15px;
-    width: 180px;
-    height: 100%;
-}
+
