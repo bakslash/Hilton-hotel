@@ -5,6 +5,23 @@ body{
     margin: auto;
     padding:0;
 }
+#container{
+    background-color: cornsilk;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+#header{
+    background-color: aquamarine;
+    color: floralwhite;
+    text-align: center;
+        
+}
+
+
+
 
 
 #navigation ul{
