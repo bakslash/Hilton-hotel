@@ -1,12 +1,11 @@
 body{
     background-image: url(back.jpg);
-    font-family: fantasy,sans-serif;
+    font-family: fantasy,sans-serif,cursive;
     font-size: medium;
     margin: auto;
     padding:0;
 }
 #container{
-    background-color: cornsilk;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -14,16 +13,23 @@ body{
 }
 
 #header{
-    background-color: aquamarine;
-    color: floralwhite;
+    background-color: black;
+    color: #FFD700;
     text-align: center;
+        
+}
+a{
+    text-decoration: none;
+    color: crimson;
         
 }
 #content{
     padding: 10px,10px,10px,10px;
 }
 
-
+h1,h2,h3{
+    margin: 0;
+}
 
 
 #navigation ul{
@@ -34,9 +40,13 @@ body{
     height: 100%;
 }
 #main{
-    width: 600px;
-    float: right;
+    width: auto;
+    float: none;
 }  
 #footer{
     clear: both;
+    padding: 10px;
+    background-color: fuchsia;
+    color: black;
+    text-align: right;
 }
