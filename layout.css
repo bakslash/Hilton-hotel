@@ -3,7 +3,8 @@
 body{
 
     background-image: url(images/back.jpg);
-    font-family: fantasy,sans-serif,cursive;
+    font-family: 'Tamgerine', cursive;
+        
         
 }
 .container{
@@ -12,11 +13,13 @@ body{
     
 }
 header{
+    font-family: 'Tangerine', serif;
+    color: deeppink;
     background-color: darkgray;
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 26px;
+    font-size: 36px;
     word-spacing: 1px;
     
     
@@ -55,4 +58,8 @@ header.h3 {
     display: block;
     padding: 5px;
     
+}
+footer{
+    font-family: 'Tangerine', cursive;
+    font-size: 24px;
 }
