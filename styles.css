@@ -1,7 +1,7 @@
 body{
-    background-image: url(back.jpg);
-    font-family: fantasy,sans-serif,cursive;
-    font-size: medium;
+    background-image: url(images/back.jpg);
+    font-family: 'Tangerine', serif;
+    font-size: 28px;
     margin: auto;
     padding:0;
 }
@@ -13,9 +13,14 @@ body{
 }
 
 #header{
-    background-color: darkgreen;
-    color: aliceblue;
+    font-family: 'Tangerine', serif;
+    background-color: darkgrey;
+    color: deeppink;
     text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 36px;
+    word-spacing: 1px;
         
 }
 a{
