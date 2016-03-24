@@ -1,0 +1,58 @@
+
+
+body{
+
+    background-image: url(images/back.jpg);
+    font-family: fantasy,sans-serif,cursive;
+        
+}
+.container{
+    width: auto;
+    margin: 30px auto 0;
+    
+}
+header{
+    background-color: darkgray;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 26px;
+    word-spacing: 1px;
+    
+    
+}
+header.h3 {
+    color: cyan;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 26px;
+    word-spacing: 1px;
+    text-shadow: 1px 2px;
+}
+#content{
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    
+}
+.gallery{
+    width: auto;
+    margin: auto;
+}
+.gallery ul{
+    list-style: none;
+    
+}
+.gallery li{
+    float: left;
+    margin: 10px;
+}
+.gallery img{
+    display: block;
+    padding: 5px;
+    
+}
