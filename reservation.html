@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head> <link rel="stylesheet" type="text/css"href="style.css">
+<head> <link rel="stylesheet" type="text/css"href="layout.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Reservations</title>
-   
-    </head>
-    
-    <body>
-        <div class="header"></div>
+   </head> 
+    <body class="body">
+        <div id="container">
+        <h1>Hillton hotel</h1>
+        <div id="nav">
+              
+               <ul>
+                <li><a href="index3.html">Home</a></li>
+                   <li><a href="reservation.html">Reservations</a></li>
+                   <li><a href="gallery.html">Gallery</a> </li>
+                   <li><a href="offers.html">Offers</a></li>
+            
+                </ul>
+            <img src="images/spa.jpg"width="70%" />
+        </div>
+            <div id="content">
         <form name="Reservations">
-        First Name:<input type="text"name="txtname">
+        First Name: <br  /><input type="text"name="Firstname">
           <br> 
         <br>
-            Last Name:<input type="text"name="txtname">
+        Last Name: <br   /><input type="text"name="txtname">
            <br> 
-      <br>Email Address:<input type="text"email="txtname">
+      <br>
+        Email Address:<br/><input type="text"email="txtname">
             <br>
-        <br>Phone Number:<input type="text"Phone="txtname">
-            
-            
-            
+        <br>
+        Phone Number:<br /><input type="text"Phone="txtname">
             
             <br>
+            <p>Type of Room</p>
             
-             <br>Payment:<input type="checkbox"name="mpesa">Mpesa
+            
+             <br>
+        Payment:<br><input type="checkbox"name="mpesa">Mpesa
+            <br>
             <br>
             <input type="checkbox"name="Paypal">Paypal
            <br>
        <br> <input type="submit">
         
         </form>
-    
+                </div>
+    </div>
     </body>
     
 </html>
