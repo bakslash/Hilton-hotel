@@ -2,29 +2,56 @@
 
 body{
 
-    background-image: url(images/back.jpg);
-    font-family: 'Tamgerine', cursive;
+    background-image: url(images/bg.png);
+    font-family: 'Tamgerine',URW Chancery L, cursive;
+    text-align: center;
+    list-style: none;
         
         
 }
 .container{
     width: auto;
     margin: 30px auto 0;
+    padding: 30x;
     
 }
 header{
-    font-family: 'Tangerine', serif;
-    color: deeppink;
-    background-color: darkgray;
+    font-family: 'Tangerine',URW Chancery L, sans-serif;
+    color: darkviolet;
+    
     text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 36px;
+    font-size: 26px;
     word-spacing: 1px;
     
     
 }
+h1{
+    text-align: center;
+    color: darkmagenta;
+    font-family: 'Tangerine',URW Chancery L,sans-serif,fantasy;
+}
+#nav{
+    text-align: center;
+    list-style: none;
+    
+}
+.nav{
+    text-align: center;
+    list-style: none;
+}
+#container{
+    font-family: 'Tangerine',URW Chancery L,sans-serif;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+}
 header.h3 {
+    font-family: 'Tangerine', sans-serif
     color: cyan;
     text-align: center;
     padding-top: 3px;
@@ -34,13 +61,18 @@ header.h3 {
     text-shadow: 1px 2px;
 }
 #content{
+    font-family: 'Tangerine',URW Chancery L,serif;
     width: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     overflow: hidden;
+    text-align: center;
     
+}
+img{
+    align-content: center;
 }
 .gallery{
     width: auto;
@@ -61,5 +93,5 @@ header.h3 {
 }
 footer{
     font-family: 'Tangerine', cursive;
-    font-size: 24px;
+    font-size: 14px;
 }
