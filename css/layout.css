@@ -1,0 +1,104 @@
+body{
+
+    background-image: url(images/bg.png);
+    font-family: 'Tamgerine',URW Chancery L, cursive;
+    text-align: center;
+    list-style: none;
+    font-size: 26px;
+    text-decoration: none;
+        
+        
+}
+.container{
+    width: auto;
+    margin: 30px auto 0;
+    padding: 30x;
+    
+}
+header{
+    font-family: ,URW Chancery L, sans-serif;
+    color: darkviolet;
+    
+    text-align: center;
+    font-size: 26px;
+    word-spacing: 1px;
+    
+    
+}
+h1{
+    text-align: center;
+    color: darkmagenta;
+    font-family: URW Chancery L,sans-serif,fantasy;
+}
+a{
+    text-decoration: none;
+}
+#nav ul li{
+    
+    
+    
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+#container{
+    font-family: 'Tangerine',URW Chancery L,sans-serif;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+}
+header.h3 {
+    font-family: 'Tangerine', sans-serif
+    color: cyan;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 30px;
+    word-spacing: 1px;
+    text-shadow: 1px 2px;
+}
+#content{
+    font-family: 'Tangerine',URW Chancery L,serif;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 26px;
+    
+}
+img{
+    align-content: center;
+}
+.gallery{
+    width: auto;
+    margin: auto;
+}
+#section.gallery{
+    display: block;
+}
+.gallery ul{
+    list-style: none;
+    text-decoration: none;
+}
+.gallery li{
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+}
+.gallery img{
+    display: block;
+    padding: 5px;
+    
+}
+footer{
+    font-family: 'Tangerine', cursive;
+    font-size: 18px;
+}
