@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/smokbg.jpg);
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#nav ul{
+    list-style: none;
+    color: #424242;
+  ;
+
+}
+#nav ul li{
+    float: left;
+    margin-left: 8%;
+    padding: 1%;
+    font-size: 25px;
+font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+#about {
+    width: 100%;
+    padding-top: 20%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #5FA2E8;
+
+
+
+}
+
+#nav {
+    width: 100%;
+}
