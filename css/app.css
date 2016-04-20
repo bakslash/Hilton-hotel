@@ -38,3 +38,9 @@ font-family: 'Raleway', sans-serif;
 #nav {
     width: 100%;
 }
+
+#gallery {
+    width: 700px;
+    display: inline-block;
+    float: left;
+}
