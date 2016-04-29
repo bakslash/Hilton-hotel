@@ -3,6 +3,7 @@ body{
     font-family: 'Raleway', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
 
 }
